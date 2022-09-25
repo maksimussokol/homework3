@@ -13,7 +13,7 @@ int a = x / 10000;
 int b = x / 1000;
 int c = x / 10;
 int d = x % 10;
-if (a == d || b == c)
+if (a == d && b == c)
 {
     Console.WriteLine("its a palindrom");
 }
